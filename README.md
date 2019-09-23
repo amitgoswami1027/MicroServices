@@ -1,2 +1,7 @@
 # MicroServices
-MicroServices using Sprint Boot
+
+##REST
+
+##SMALL WELL CHOOSEN DEPLOYABLE UNITS
+
+##CLOUD ENABLED
