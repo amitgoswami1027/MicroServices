@@ -8,7 +8,8 @@ public class LimitConfiguration
     protected LimitConfiguration() {
     }
 
-    public LimitConfiguration(int maximum, int minimum) {
+    public LimitConfiguration(int maximum, int minimum)
+    {
         this.maximum = maximum;
         this.minimum = minimum;
     }
