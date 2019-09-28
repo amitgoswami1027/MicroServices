@@ -61,6 +61,29 @@ URI :
     ]
 }
 
+#### -------------------------------------------------------------------------------------------------------------
+### Currency Exchange Service
+### Fetches the details of the currency rates
+URI:
+* http://localhost:9000/currency-exchange/from/USD/to/INR
+
+OUTPUT
+{
+    "id": 1000,
+    "from": "USD",
+    "to": "INR",
+    "conversionMultiple": 65,
+    "port": 9000
+}
+
+
+
+
+
+
+
+
+
 
 
 
