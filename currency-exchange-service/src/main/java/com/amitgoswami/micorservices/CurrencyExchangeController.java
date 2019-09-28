@@ -18,8 +18,8 @@ public class CurrencyExchangeController
     private ExchangeValueRepository repository;
 
     // Rest WebService
-    //localhost:8000/currency-exchange/from/USD/to/INR
-    @GetMapping("/currency-exchange/from/{from}/to/{to}")
+    //localhost:8000/currency-exchange-service/from/USD/to/INR
+    @GetMapping("/currency-exchange-service/from/{from}/to/{to}")
     public ExchangeValue retrieveExchangeValue(@PathVariable String from,
                                                @PathVariable String to)
     {
