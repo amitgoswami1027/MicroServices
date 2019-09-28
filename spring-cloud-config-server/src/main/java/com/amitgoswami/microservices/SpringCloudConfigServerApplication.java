@@ -9,6 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 //http://localhost:8888/limits-service/dev
 //http://localhost:8888/limits-service/qa
 
+// Annotation to enabling the spring cloud configuration server -- IMPORTANT
 @EnableConfigServer
 @SpringBootApplication
 public class SpringCloudConfigServerApplication
