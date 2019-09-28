@@ -10,6 +10,9 @@ Martin Flower Defination: The term "Microservice Architecture" has sprung up ove
 ##### Microservices --> Configuration --> AutoScaling --> Cloud(AWS) --> Kubernetes (Deployment)/Autmation
 
 ### Link for Reference: https://martinfowler.com/articles/microservices.html (Good Read)
+### SpringBoot Tutorial: https://www.springboottutorial.com/
+### URI Vs URL : Most of the confusion with these two is because they are related. You see, a URI can be a name, locator, or both for an online resource where a URL is just the locator. URLs are a subset of URIs. That means all URLs are URIs. It doesn't work the opposite way though.Not all URIs are URLs because a URI could be a name instead of a locator.
+* https://upload.wikimedia.org/wikipedia/commons/c/c3/URI_Euler_Diagram_no_lone_URIs.svg
 
 ### SILENT FEATURES OF MICROSERVICES
 * #### RESTFUL WEB SERVICE
@@ -76,6 +79,12 @@ OUTPUT
     "port": 9000
 }
 
+Installing Rabbit MQ
+Windows
+https://www.rabbitmq.com/install-windows.html
+https://www.rabbitmq.com/which-erlang.html
+http://www.erlang.org/downloads
+Video - https://www.youtube.com/watch?v=gKzKUmtOwR4
 
 
 
