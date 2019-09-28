@@ -9,12 +9,12 @@ Martin Flower Defination: The term "Microservice Architecture" has sprung up ove
 ### Link for Reference: https://martinfowler.com/articles/microservices.html (Good Read)
 
 ### SILENT FEATURES OF MICROSERVICES
-#### RESTFUL WEB SERVICE
-#### SMALL WELL CHOOSEN DEPLOYABLE UNITS.
-#### CLOUD ENABLED - DYNAMIC SCALE UP AND SCALE DOWN,DYNAMIC LOAD BALANCING.
-#### DECIDING THE BOUNDARY OF THE MICROSERVICES IS EVOLUTIONARY PROCESS. (BOUNDED CONTEXT - EVOLUTIONARY)
-#### VISIBILITY/MONITORING. 
-#### FAULT TOLERANCE. 
+* #### RESTFUL WEB SERVICE
+* #### SMALL WELL CHOOSEN DEPLOYABLE UNITS.
+* #### CLOUD ENABLED - DYNAMIC SCALE UP AND SCALE DOWN,DYNAMIC LOAD BALANCING.
+* #### DECIDING THE BOUNDARY OF THE MICROSERVICES IS EVOLUTIONARY PROCESS. (BOUNDED CONTEXT - EVOLUTIONARY)
+* #### VISIBILITY/MONITORING. 
+* #### FAULT TOLERANCE. 
 
 ### DEVELOPING MICROSERVICES USING JAVA SPRINGBOOT 
 We are trying to develop the microservices system which can demonstrate end to end different concepts of the good Microservices architecture. Create the integration of these microservice, how they intract with one another and can be deployed on AWS (Amazoon web Services).
