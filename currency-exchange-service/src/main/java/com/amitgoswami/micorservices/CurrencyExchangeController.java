@@ -14,13 +14,19 @@ public class CurrencyExchangeController
     @Autowired
     private Environment environment;
 
+    @Autowired
+    private ExchangeValueRepository repository;
+
     // Rest WebService
     //localhost:8000/currency-exchange/from/USD/to/INR
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
     public ExchangeValue retrieveExchangeValue(@PathVariable String from,
                                                @PathVariable String to)
     {
-        ExchangeValue exchangeValue = new ExchangeValue(1000L, from, to, BigDecimal.valueOf(65));
+        ExchangeValue exchangeValue = repository.findByFromAndTo(from,to);
+
+        // Service Port and it runs at port 8000.
+        //Best practice is to use the port from variable instead of hard coding it
         exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
         return exchangeValue;
     }

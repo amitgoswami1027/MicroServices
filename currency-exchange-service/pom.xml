@@ -58,7 +58,8 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
+			<!--version>1.4.199</version-->
+			<!--scope>runtime</scope-->
 		</dependency>
 
         <dependency>
@@ -66,7 +67,6 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-
 
 	</dependencies>
 
