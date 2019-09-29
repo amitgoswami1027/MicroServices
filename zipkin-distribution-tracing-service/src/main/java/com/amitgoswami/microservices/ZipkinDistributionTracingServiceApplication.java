@@ -2,14 +2,14 @@ package com.amitgoswami.microservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import zipkin2.server.internal.EnableZipkinServer;
 
 @SpringBootApplication
-@EnableDiscoveryClient
-public class LimitsServiceApplication {
-
+@EnableZipkinServer
+public class ZipkinDistributionTracingServiceApplication
+{
 	public static void main(String[] args) {
-		SpringApplication.run(LimitsServiceApplication.class, args);
+		SpringApplication.run(ZipkinDistributionTracingServiceApplication.class, args);
 	}
 
 }

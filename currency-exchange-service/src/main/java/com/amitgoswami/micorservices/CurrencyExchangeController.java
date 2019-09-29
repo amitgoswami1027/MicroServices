@@ -1,5 +1,7 @@
 package com.amitgoswami.micorservices;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,6 +13,9 @@ import java.math.BigDecimal;
 @RestController
 public class CurrencyExchangeController
 {
+    //Get Logger to log the information
+    private Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());
+
     @Autowired
     private Environment environment;
 
@@ -28,6 +33,8 @@ public class CurrencyExchangeController
         // Service Port and it runs at port 8000.
         //Best practice is to use the port from variable instead of hard coding it
         exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
+        logger.info("{}",exchangeValue);
+
         return exchangeValue;
     }
 }
