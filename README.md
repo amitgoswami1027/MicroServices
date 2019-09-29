@@ -87,7 +87,10 @@ http://www.erlang.org/downloads
 Video - https://www.youtube.com/watch?v=gKzKUmtOwR4
 
 
-
+Currency Converter Service - Feign	http://localhost:8100/currency-converter-feign/from/EUR/to/INR/quantity/10000
+Currency Exchange Service	http://localhost:8000/currency-exchange/from/EUR/to/INR http://localhost:8001/currency-exchange/from/USD/to/INR
+Eureka	http://localhost:8761/
+Zuul - Currency Exchange & Exchange Services	http://localhost:8765/currency-exchange-service/currency-exchange/from/EUR/to/INR http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/10
 
 
 
